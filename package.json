@@ -1,0 +1,22 @@
+{
+  "name": "we-theme-pratt",
+  "version": "0.0.1",
+  "description": "We.js we-theme-pratt theme",
+  "homepage": "https://yourthemehomepage.here",
+  "repository": {
+    "type": "git",
+    "url": "putyourthemerepositoryhere"
+  },
+  "main": "theme.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.2.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
