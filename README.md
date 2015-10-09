@@ -46,6 +46,10 @@ npm run tasks
 npm run dev
 ```
 
+## Build with pratt theme
+
+Link: http://blacktie.co/demo/pratt/
+
 ## License
 
 MIT
