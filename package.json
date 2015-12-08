@@ -1,11 +1,11 @@
 {
   "name": "we-theme-pratt",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "We.js we-theme-pratt theme",
   "homepage": "https://yourthemehomepage.here",
   "repository": {
     "type": "git",
-    "url": "putyourthemerepositoryhere"
+    "url": "https://github.com/wejs/we-theme-pratt.git"
   },
   "main": "theme.js",
   "dependencies": {},
@@ -18,9 +18,5 @@
   "optionalDependencies": {},
   "engines": {
     "node": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wejs/we-theme-pratt.git"
   }
 }
