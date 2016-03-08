@@ -43,3 +43,25 @@ h2.page-header  {
 .full-width-layout {
   margin-top: 20px;
 }
+
+// posts .post-teaser {
+//   box-shadow: inherit;
+//   margin: 0px;
+// }
+
+.post-teaser,
+.posts .post-teaser {
+  box-shadow: inherit;
+  padding: 10px;
+  margin-left: 0px;
+  border: 1px solid #ccc;
+}
+
+.post-teaser.highlighted,
+.post.highlighted {
+  border-color: darkred ;
+}
+
+body.post.findOne h2.page-header {
+  display: none;
+}
