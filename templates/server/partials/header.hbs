@@ -1,4 +1,4 @@
-<div class="navbar navbar-default navbar-fixed-top"><div class="container">
+<div class="navbar navbar-default"><div class="container">
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
       <span class="sr-only">Toggle navigation</span>
@@ -8,6 +8,8 @@
     </button>
     {{#link-to 'main.index' class="navbar-brand"}}{{appName}}{{/link-to}}
   </div>
-  {{we-menu req.we.menu.main}}
-  {{we-menu userMenu}}
+  <div class="collapse navbar-collapse">
+    {{we-menu req.we.menu.main}}
+    {{we-menu userMenu}}
+  </div>
 </div></div>
