@@ -40,10 +40,6 @@ h2.page-header  {
   margin-top: 15px;
 }
 
-.full-width-layout {
-  margin-top: 20px;
-}
-
 // posts .post-teaser {
 //   box-shadow: inherit;
 //   margin: 0px;
@@ -64,4 +60,17 @@ h2.page-header  {
 
 body.post.findOne h2.page-header {
   display: none;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.breadcrumb {
+  margin-top: 10px;
+}
+// revert outline to default
+.nav > li > a:hover, .nav > li > a:focus,
+.nav > li > a:focus,
+a:hover, a:active, a:focus, button:focus {
+  text-decoration: underline;
+  outline: thin dotted;
 }
