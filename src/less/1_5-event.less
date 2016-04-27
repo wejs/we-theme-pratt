@@ -74,6 +74,33 @@ body.event.create #region-content {
   border: 1px solid #ddd;
 }
 
+body.event.findOne #headerwrap h1 {
+  font-size: 33px;
+}
+body.event.findOne #headerwrap h3 {
+  font-size: 18px;
+}
+
+body.event.findOne #about {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 15px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.navbar-collapse.collapse.colapse-event {
+  display: inline-block !important;
+}
+
+.navbar-event-brand {
+  margin: 0px;
+  padding: 0px 15px;
+}
+.event-logo {
+  width: 50px;
+}
+
 /* Event tags */
 .event-tags {
   list-style: none;
@@ -128,4 +155,44 @@ body.event.create #region-content {
 }
 .event-tag:hover::after {
    border-left-color: #34495E;
+}
+
+
+/* Event site menu */
+#site-menu {
+  position: fixed;
+  left: 0px;
+  z-index: 1000;
+  top: 38%;
+  font-size: 26px;
+}
+#site-menu ul {
+  list-style: none;
+  padding-left: 0px;
+}
+#site-menu li {
+  padding-top: 2px;
+}
+#site-menu a {
+  border: 1px solid #000;
+  border-radius: 7px;
+  padding: 10px;
+  background-color: #fff;
+
+  width: 46px;
+  line-height: 25px;
+  display: block;
+}
+
+.events-icon {
+  color: #ED143D
+}
+.home-icon {
+  color: #000;
+}
+.twitter-icon {
+  color: #0FB5EE;
+}
+.facebook-color {
+  color: #4A66A0;
 }

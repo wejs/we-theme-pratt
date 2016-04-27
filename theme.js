@@ -48,6 +48,28 @@ module.exports = {
         }
       }
     },
+    'eventHome': {
+      template: __dirname + '/templates/server/layouts/event-home-layout.hbs',
+      regions: {
+        highlighted: {
+          name: 'Highlighted'
+        },
+        afterContent: {
+          name: 'afterContent'
+        }
+      }
+    },
+    // 'eventAdmin': {
+    //   template: __dirname + '/templates/server/layouts/event-admin-layout.hbs',
+    //   regions: {
+    //     highlighted: {
+    //       name: 'Highlighted'
+    //     },
+    //     sidebar: {
+    //       name: 'Sidebar'
+    //     }
+    //   }
+    // }
   },
   widgets: {}
 };
