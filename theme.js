@@ -54,9 +54,6 @@ module.exports = {
         highlighted: {
           name: 'Highlighted'
         },
-        afterContent: {
-          name: 'afterContent'
-        }
       }
     },
     // 'eventAdmin': {
