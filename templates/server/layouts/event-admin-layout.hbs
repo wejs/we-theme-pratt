@@ -1,0 +1,20 @@
+<div class="container"><div class="row">
+  <div class="col-md-12">{{we-breadcrumb locals=this}}</div>
+
+  {{#region 'highlighted' class="col col-md-12"}}{{/region}}
+
+  <div id="sidebar" class="col col-md-3">
+    <div class="event-admin-menu">
+      <h3 class="event-admin-menu-title">{{t 'event.admin.menu.title'}}</h3>
+      {{we-menu eventAdminMenu}}
+    </div>
+  </div>
+
+  <div id="region-content" class="col col-md-8">
+    <h2 class="page-header">{{title}}</h2>
+
+    <div id="sysMessagesArea">{{{we-messages}}}</div>
+
+    <div id="content">{{{body}}}</div>
+  </div>
+</div></div>

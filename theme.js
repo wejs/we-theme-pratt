@@ -56,17 +56,14 @@ module.exports = {
         },
       }
     },
-    // 'eventAdmin': {
-    //   template: __dirname + '/templates/server/layouts/event-admin-layout.hbs',
-    //   regions: {
-    //     highlighted: {
-    //       name: 'Highlighted'
-    //     },
-    //     sidebar: {
-    //       name: 'Sidebar'
-    //     }
-    //   }
-    // }
+    'eventAdmin': {
+      template: __dirname + '/templates/server/layouts/event-admin-layout.hbs',
+      regions: {
+        highlighted: {
+          name: 'Highlighted'
+        }
+      }
+    }
   },
   widgets: {}
 };
